@@ -16,7 +16,7 @@ export default function Home() {
         {/*first section*/}
         <div className='flex flex-col lg:flex-row lg:justify-center mx-auto'>
         <div className='pt-9 px-12 bg-[#F0EAFB] min-w-[382px] text-center rounded-t-lg lg:rounded-l-lg
-        lg:rounded-tr-none'>
+        lg:rounded-tr-none shadow-lg shadow-gray-300'>
           <p className='text-gray-900 font-bold text-xl'>Premium PRO</p>
           <span className='block mt-4 mb-3 text-5xl text-gray-900 font-bold'>$329</span>
           <p className='mb-8 text-gray-900 text-lg font-medium'>billed just once</p>
@@ -24,48 +24,48 @@ export default function Home() {
         </div>
 
         {/*second section*/}
-        <div className='pl-4 bg-white shadow lg:rounded-r-lg text-gray-700 font-medium'>
-        <p className='mb-4 mt-4 pr-2'>Access these features when you get this pricing package for 
+        <div className='min-h-[300px] pl-4 bg-white lg:rounded-r-lg text-gray-700 font-medium shadow-lg shadow-gray-300'>
+        <p className='mb-4 mt-4 pr-2 mr-16 text-[#2D3748] font-normal text-lg mx-6'>Access these features when you get this pricing package for 
         your business.</p>
-        <div className='flex justify-start gap-x-3 mt-2'>
+        <div className='flex justify-start gap-x-3 mx-6 mt-6'>
         <Image src={'/Group 172.jpg'} width={20} height={20} alt='price-image'/>
-        <span className='text-sm text-gray-700 font-medium gap-2'>International calling and messaging API</span>
+        <span className='text-sm font-medium  text-[#2D3748] mx-2'>International calling and messaging API</span>
       </div>
 
-      <div className='flex justify-start gap-x-3 mt-2'>
+      <div className='flex justify-start gap-x-3 mx-6 mt-6'>
         <Image src={'/Group 172.jpg'} width={20} height={20} alt='price-image'/>
-        <span className='text-sm text-gray-700 font-medium'>Additional phone numbers</span>
+        <span className='text-sm font-medium   text-[#2D3748] mx-2'>Additional phone numbers</span>
       </div>
 
-      <div className='flex justify-start gap-x-3 mt-2'>
+      <div className='flex justify-start gap-x-3 mx-6 mt-6'>
         <Image src={'/Group 172.jpg'} width={20} height={20} alt='price-image'/>
-        <span className='text-sm text-gray-700 font-medium'>Automated messages via Zapier</span>
+        <span className='text-sm font-medium  text-[#2D3748] mx-2'>Automated messages via Zapier</span>
       </div>
 
-      <div className='flex justify-start gap-x-3 mt-2'>
-        <Image src={'/Group 172.jpg'} width={20} height={20} alt='price-image'/>
-        <span className='text-sm text-gray-700 font-medium'>24/7 support and consulting</span>
+      <div className='flex justify-start gap-x-3 mx-6 mt-6'>
+        <Image src={'/Group 172.jpg'} width={20} height={20} alt='price-image mx-2'/>
+        <span className='text-sm font-medium  text-[#2D3748] mx-2'>24/7 support and consulting</span>
       </div>
       </div>
      </div>
 
      {/* bottom section */}
      
-     <div className='pl-2 lg:flex lg:justify-center lg:gap-x-6'>
+     <div className='pl-2 lg:flex lg:justify-center lg:gap-x-6 pt-4'>
     
-     <div className='mt-8 flex justify-start gap-x-2 gap-y-10 font-medium'>
-      <Image src={'/Group.jpg'} width={22} height={22} alt='price-image'/>
-      <p>30 days money back Guarantee</p>
+     <div className='mt-8 justify-start gap-x-2 gap-y-10 font-medium'>
+      <Image src={'/Group.jpg'} width={32} height={32} alt='price-image'/>
+      <p className="text-[#171923] font-bold mx-12 -mt-9">30 days money back Guarantee</p>
      </div>
 
-     <div className='mt-8 flex justify-start gap-x-2 gap-y-10 font-medium'>
-      <Image src={'/Group (1).jpg'} width={22} height={22} alt='price-image'/>
-      <p>No setup fees 100% hassle-free</p>
+     <div className='mt-8 justify-start gap-x-2 gap-y-10 font-medium'>
+      <Image src={'/Group (1).jpg'} width={32} height={32} alt='price-image'/>
+      <p className="text-[#171923] font-bold mx-12 -mt-9">No setup fees 100% hassle-free</p>
      </div>
 
-     <div className='mt-8 flex justify-start gap-x-2 gap-y-10 font-medium'>
-      <Image src={'/Group (2).jpg'} width={22} height={22} alt='price-image'/>
-      <p>No monthly subscription Pay once and for all</p>
+     <div className='mt-8 justify-start gap-x-2 gap-y-10 font-medium'>
+      <Image src={'/Group (2).jpg'} width={32} height={32} alt='price-image' className=""/>
+      <p className="text-[#171923] text- font-bold mx-12 -mt-9">No monthly subscription Pay once and for all</p>
       
      </div>
       </div>
